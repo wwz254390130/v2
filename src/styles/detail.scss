@@ -1,0 +1,42 @@
+.title-prompt{
+  position: absolute;
+  right: 0px;
+  top: 40px;
+  line-height: 1;
+  font-size: 12px;
+  color:#ff4949;
+}
+.createPost-container {
+  position: relative;
+  .createPost-main-container {
+    padding: 40px 45px 20px 50px;
+    .postInfo-container {
+      position: relative;
+      @include clearfix;
+      margin-bottom: 10px;
+      .postInfo-container-item {
+        float: left;
+      }
+    }
+    .editor-container {
+      min-height: 500px;
+      margin: 0 0 30px;
+      .editor-upload-btn-container {
+          text-align: right;
+          margin-right: 10px;
+          .editor-upload-btn {
+              display: inline-block;
+          }
+      }
+    }
+  }
+
+  .word-counter {
+    position: absolute;
+    right: 0;
+
+    font-size: 12px;
+    color: #666;
+    line-height: 1.8;
+  }
+}
